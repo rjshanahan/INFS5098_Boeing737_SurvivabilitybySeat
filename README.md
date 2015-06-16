@@ -1,6 +1,8 @@
 # INFS5098_Boeing737_SurvivabilitybySeat
   
   
+![Popular Mechanics Passenger Survivability by Seat](http://pop.h-cdn.co/assets/cm/15/05/54c88150d6d95_-_aircrash-seat-illo-0807.gif)
+  
   
 ```
 > str(boeing737_select)
