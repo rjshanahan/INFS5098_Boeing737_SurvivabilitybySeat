@@ -1,8 +1,25 @@
-# INFS5098_Boeing737_SurvivabilitybySeat
+##INFS5098_Boeing737_SurvivabilitybySeat: Code and Dataset Repository
+  
+###**Abstract from Final Paper**  
+This paper presents the findings of analyses into Boeing 737 aircraft accident survivability by seat. The data were collected from real, historical accidents and were then audited, cleansed and analysed. These data were modelled through a variety of techniques to determine which variables have the greatest influence on survivability by seat. The results are presented in the context of the original problem – what is the safest seat on Boeing 737 during a survivable accident. Recommendations are made based on the analysis findings and presented with the intention of providing real, actionable insights for survivability by Boeing 737 seat.  
+**Keywords**: *model, Boeing 737, accident, safest seat, methodology, predictive*  
   
   
+###**Background**	  
+This paper presents the findings for the study of the safest Boeing 737 seat during survivable accidents. Factors influencing aircraft accident probability are well studied, but the variables leading to passenger safety outcomes during survivable accidents are less well understood. This research focuses on the Boeing 737 given its dominance in the commercial airliner industry. Of all commercial aircraft the Boeing 737 is the most successful in terms of units produced with over 7,700 deliveries to 265 customers since 1968 (Boeing, 2015). This prevalence has also meant the series has been involved in a significant number of accidents, in total 155 hull loss accidents, 77 of which involved fatalities as at 2013 (Boeing Operations 2014).  
+  
+The problem proposed required investigation firstly into previous studies of commercial aircraft accidents, specifically assessing factors influencing passenger outcomes during survivable accidents. Secondly, possible data sources and collection methods to produce a workable dataset were detailed. This paper completes the research presenting the results for collected data and insights identified through the modelling process. These insights will be presented as recommendations and ranked by perceived ease of implementation.  
+  
+  
+###*Popular Mechanics Passenger Survivability by Seat*  
+[Popular Mechanics Article](http://www.popularmechanics.com/flight/a1918/4219452/)  
 ![Popular Mechanics Passenger Survivability by Seat](http://pop.h-cdn.co/assets/cm/15/05/54c88150d6d95_-_aircrash-seat-illo-0807.gif)
   
+###*University of Greenwich Survivability by Seat - Daily Mail*   
+[Daily Mail Article](http://www.popularmechanics.com/flight/a1918/4219452/)  
+![University of Greenwich Survivability by Seat - Daily Mail](http://i.dailymail.co.uk/i/pix/2008/06/26/article-1029719-01C1F81300000578-944_468x298.jpg)
+  
+###Structure of the Collected Boeing 737 Survivability by Seat Dataset  
   
 ```
 > str(boeing737_select)
