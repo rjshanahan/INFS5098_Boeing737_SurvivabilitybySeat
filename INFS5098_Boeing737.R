@@ -1,6 +1,11 @@
 #Richard Shanahan  
 #https://github.com/rjshanahan  
+#rjshanahan@gmail.com
 #18 June 2015
+
+##portions of code adapted from the following text:
+#"Practical Data Science with R" by Nina Zumel and John Mount, Manning 2014.
+#https://github.com/WinVector/zmPDSwR
 
 ###### INFS 5098: PART 2_Boeing 737 Survivability by Seat ###### 
 # load required packages
@@ -19,6 +24,7 @@ library(aod)
 
 # source custom code for Boxplot from GitHub Gist
 source_gist("e47c35277a36dca7189a")
+
 #clus plot
 install_github("pablo14/clusplus")
 library(clusplus)
