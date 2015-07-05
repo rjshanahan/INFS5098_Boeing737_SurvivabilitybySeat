@@ -1,5 +1,9 @@
 ##INFS5098_Boeing737_SurvivabilitybySeat: Code and Dataset Repository
   
+  
+*[Click here for interacive k-Means Clustering...](https://rjshanahan.shinyapps.io/publish01)*    
+  
+    
 ###**Abstract from Final Paper**  
 This paper presents the findings of analyses into Boeing 737 aircraft accident survivability by seat. The data were collected from real, historical accidents and were then audited, cleansed and analysed. These data were modelled through a variety of techniques to determine which variables have the greatest influence on survivability by seat. The results are presented in the context of the original problem – what is the safest seat on Boeing 737 during a survivable accident. Recommendations are made based on the analysis findings and presented with the intention of providing real, actionable insights for survivability by Boeing 737 seat.  
 **Keywords**: *model, Boeing 737, accident, safest seat, methodology, predictive*  
