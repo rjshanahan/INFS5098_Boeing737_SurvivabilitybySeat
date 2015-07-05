@@ -1,7 +1,7 @@
 ##INFS5098_Boeing737_SurvivabilitybySeat: Code and Dataset Repository
   
-  
-*[Click here for interacive k-Means Clustering...](https://rjshanahan.shinyapps.io/publish01)*    
+
+####*<a href="https://rjshanahan.shinyapps.io/publish01" target="_blank">Click here for interacive k-Means Clustering...</a>*####
   
     
 ###**Abstract from Final Paper**  
