@@ -162,8 +162,11 @@ ui <- fluidPage(
   mainPanel(
     plotOutput("clusplot"),
     width=12
-  )  # end mainPanel
-)
+  ),  # end mainPanel
+  fluidRow(column(12,
+                    dataTableOutput("table_centres")
+                    )
+))
 
 
 #################################################################
@@ -206,7 +209,9 @@ output$clusplot <- renderPlot({
     theme(axis.text.x = element_text(angle = 90, vjust = 0.5), 
           plot.title = element_text(size = 14, face = "bold"))
   plot(coor_plot)
-})}
+})
+output$table_centres <- renderDataTable(round(kmeans(boeing737_select.s.c, rv$k)$centers, 2))
+}
 
 
 #######################################################
